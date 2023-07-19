@@ -3,7 +3,7 @@
 #include <RF24.h>
 #include <AFMotor.h>
 
-RF24 radio(9, 10); // NRF24L01 module pins , chanfe Ce, CSN pin according to your arduino board 
+RF24 radio(9, 10); // NRF24L01 module pins , change CE, CSN pin according to your arduino board 
 
 AF_DCMotor motorA(1); // Motor A object
 AF_DCMotor motorB(2); // Motor B object
